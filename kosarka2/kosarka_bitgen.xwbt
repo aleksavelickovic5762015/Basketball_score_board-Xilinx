@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Aleksa\DOMACI_ORT\kosarka2\kosarka.ncd
+OUTFILE=C:\Aleksa\DOMACI_ORT\kosarka2\kosarka.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=C:\Aleksa\DOMACI_ORT\kosarka2
+LICENSE=WebPack
+USER_INFO=211257142_0_0_734

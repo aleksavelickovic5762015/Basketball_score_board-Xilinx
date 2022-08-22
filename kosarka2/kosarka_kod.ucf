@@ -1,0 +1,37 @@
+// Dodeljivanje pinova za prekidace
+NET "p0" LOC = "G18";
+NET "p0" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "p1" LOC = "H18";
+NET "p1" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "p2" LOC = "K18";
+NET "p2" CLOCK_DEDICATED_ROUTE = FALSE;
+
+//Dodeljivanje pinova za tastere
+NET "b0" LOC = "B18";
+NET "b0" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "b1" LOC = "D18";
+NET "b1" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "b2" LOC = "E18";
+NET "b2" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "b3" LOC = "H13";
+NET "b3" CLOCK_DEDICATED_ROUTE = FALSE;
+
+
+//Dodeljivanje pinova za 7-segmentni displej
+NET "a" LOC = "L18" ;
+NET "b" LOC = "F18" ;
+NET "c" LOC = "D17" ;
+NET "d" LOC = "D16" ;
+NET "e" LOC = "G14" ;
+NET "f" LOC = "J17" ;
+NET "g" LOC = "H14" ;
+NET "dp" LOC = "C17" ;
+NET "an<3>" LOC = "F15"; 
+NET "an<2>" LOC = "C18"; 
+NET "an<1>" LOC = "H17"; 
+NET "an<0>" LOC = "F17"; 
+
+
+# Pin assignment for clock
+
+NET "clk" LOC = "B8"; 

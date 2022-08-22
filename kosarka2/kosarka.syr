@@ -1,0 +1,591 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: kosarka.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "kosarka.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "kosarka"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : kosarka
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "bcd.v" in library work
+Compiling verilog file "kosarka.v" in library work
+Module <bcd> compiled
+Module <kosarka> compiled
+No errors in compilation
+Analysis of file <"kosarka.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <kosarka> in library <work>.
+
+Analyzing hierarchy for module <bcd> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <kosarka>.
+Module <kosarka> is correct for synthesis.
+ 
+Analyzing module <bcd> in library <work>.
+Module <bcd> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <bcd>.
+    Related source file is "bcd.v".
+    Found 4-bit register for signal <jedinice>.
+    Found 4-bit register for signal <desetice>.
+    Found 4-bit adder for signal <$add0000> created at line 41.
+    Found 4-bit adder for signal <$add0001> created at line 44.
+    Found 4-bit up counter for signal <i>.
+    Found 16-bit register for signal <shift>.
+    Found 4-bit comparator greatequal for signal <shift$cmp_ge0000> created at line 43.
+    Found 4-bit comparator greatequal for signal <shift$cmp_ge0001> created at line 40.
+    Found 4-bit comparator less for signal <shift_0$cmp_lt0000> created at line 38.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  24 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+Unit <bcd> synthesized.
+
+
+Synthesizing Unit <kosarka>.
+    Related source file is "kosarka.v".
+    Found 16x7-bit ROM for signal <s_seg$mux0000> created at line 83.
+    Found 17-bit register for signal <brojacD>.
+    Found 17-bit adder for signal <brojacD$add0000> created at line 74.
+    Found 29-bit register for signal <brojacV>.
+    Found 29-bit adder for signal <brojacV$add0000> created at line 81.
+    Found 4-bit register for signal <cifra>.
+    Found 1-bit register for signal <clkD>.
+    Found 1-bit register for signal <clkV>.
+    Found 4-bit register for signal <displej>.
+    Found 8-bit adder for signal <old_rezulA_11$add0000> created at line 141.
+    Found 8-bit subtractor for signal <old_rezulA_11$sub0000> created at line 142.
+    Found 8-bit adder for signal <old_rezulA_18$add0000> created at line 153.
+    Found 8-bit subtractor for signal <old_rezulA_18$sub0000> created at line 154.
+    Found 8-bit adder for signal <old_rezulB_16$add0000> created at line 151.
+    Found 8-bit subtractor for signal <old_rezulB_16$sub0000> created at line 152.
+    Found 8-bit adder for signal <old_rezulB_9$add0000> created at line 139.
+    Found 8-bit subtractor for signal <old_rezulB_9$sub0000> created at line 140.
+    Found 8-bit register for signal <rezulA>.
+    Found 8-bit addsub for signal <rezulA$addsub0000>.
+    Found 8-bit register for signal <rezulB>.
+    Found 8-bit addsub for signal <rezulB$addsub0000>.
+    Found 7-bit register for signal <s_seg>.
+    Found 1-bit register for signal <stanjeB0>.
+    Found 1-bit register for signal <stanjeB1>.
+    Found 1-bit register for signal <stanjeB2>.
+    Found 1-bit register for signal <stanjeB3>.
+    Found 1-bit register for signal <stop>.
+    Found 8-bit down counter for signal <vremeA>.
+    Found 8-bit down counter for signal <vremeB>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   2 Counter(s).
+	inferred  84 D-type flip-flop(s).
+	inferred  12 Adder/Subtractor(s).
+Unit <kosarka> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 20
+ 17-bit adder                                          : 1
+ 29-bit adder                                          : 1
+ 4-bit adder                                           : 8
+ 8-bit adder                                           : 4
+ 8-bit addsub                                          : 2
+ 8-bit subtractor                                      : 4
+# Counters                                             : 6
+ 4-bit up counter                                      : 4
+ 8-bit down counter                                    : 2
+# Registers                                            : 86
+ 1-bit register                                        : 71
+ 17-bit register                                       : 1
+ 29-bit register                                       : 1
+ 4-bit register                                        : 10
+ 7-bit register                                        : 1
+ 8-bit register                                        : 2
+# Comparators                                          : 12
+ 4-bit comparator greatequal                           : 8
+ 4-bit comparator less                                 : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <kosarka>.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_s_seg_mux0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+Unit <kosarka> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 20
+ 17-bit adder                                          : 1
+ 29-bit adder                                          : 1
+ 3-bit adder                                           : 4
+ 4-bit adder                                           : 4
+ 8-bit adder                                           : 4
+ 8-bit addsub                                          : 2
+ 8-bit subtractor                                      : 4
+# Counters                                             : 6
+ 4-bit up counter                                      : 4
+ 8-bit down counter                                    : 2
+# Registers                                            : 180
+ Flip-Flops                                            : 180
+# Comparators                                          : 12
+ 4-bit comparator greatequal                           : 8
+ 4-bit comparator less                                 : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <kosarka> ...
+
+Optimizing unit <bcd> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block kosarka, actual ratio is 5.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 212
+ Flip-Flops                                            : 212
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : kosarka.ngr
+Top Level Output File Name         : kosarka
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 20
+
+Cell Usage :
+# BELS                             : 661
+#      GND                         : 1
+#      INV                         : 29
+#      LUT1                        : 28
+#      LUT2                        : 65
+#      LUT3                        : 103
+#      LUT3_D                      : 8
+#      LUT3_L                      : 4
+#      LUT4                        : 219
+#      LUT4_D                      : 19
+#      LUT4_L                      : 19
+#      MUXCY                       : 71
+#      MUXF5                       : 32
+#      VCC                         : 1
+#      XORCY                       : 62
+# FlipFlops/Latches                : 212
+#      FD                          : 113
+#      FDE                         : 66
+#      FDR                         : 21
+#      FDRE                        : 4
+#      FDRS                        : 4
+#      FDS                         : 4
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 19
+#      IBUF                        : 7
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                      251  out of   4656     5%  
+ Number of Slice Flip Flops:            205  out of   9312     2%  
+ Number of 4 input LUTs:                494  out of   9312     5%  
+ Number of IOs:                          20
+ Number of bonded IOBs:                  20  out of    232     8%  
+    IOB Flip Flops:                       7
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 167   |
+clkD1                              | BUFG                   | 29    |
+clkV                               | NONE(vremeB_0)         | 16    |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 10.398ns (Maximum Frequency: 96.174MHz)
+   Minimum input arrival time before clock: 11.364ns
+   Maximum output required time after clock: 4.562ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 6.577ns (frequency: 152.045MHz)
+  Total number of paths / destination ports: 6856 / 214
+-------------------------------------------------------------------------
+Delay:               6.577ns (Levels of Logic = 32)
+  Source:            brojacV_6 (FF)
+  Destination:       brojacV_28 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: brojacV_6 to brojacV_28
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.514   0.532  brojacV_6 (brojacV_6)
+     LUT4:I0->O            1   0.612   0.000  clkV_cmp_eq0000_wg_lut<1> (clkV_cmp_eq0000_wg_lut<1>)
+     MUXCY:S->O            1   0.404   0.000  clkV_cmp_eq0000_wg_cy<1> (clkV_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  clkV_cmp_eq0000_wg_cy<2> (clkV_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  clkV_cmp_eq0000_wg_cy<3> (clkV_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  clkV_cmp_eq0000_wg_cy<4> (clkV_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  clkV_cmp_eq0000_wg_cy<5> (clkV_cmp_eq0000_wg_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  clkV_cmp_eq0000_wg_cy<6> (clkV_cmp_eq0000_wg_cy<6>)
+     MUXCY:CI->O          13   0.288   0.905  clkV_cmp_eq0000_wg_cy<7> (clkV_cmp_eq0000)
+     LUT2:I1->O            1   0.612   0.000  _old_brojacV_2<6>1 (_old_brojacV_2<6>)
+     MUXCY:S->O            1   0.404   0.000  Madd_brojacV_add0000_cy<6> (Madd_brojacV_add0000_cy<6>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_brojacV_add0000_cy<7> (Madd_brojacV_add0000_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_brojacV_add0000_cy<8> (Madd_brojacV_add0000_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_brojacV_add0000_cy<9> (Madd_brojacV_add0000_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_brojacV_add0000_cy<10> (Madd_brojacV_add0000_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_brojacV_add0000_cy<11> (Madd_brojacV_add0000_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_brojacV_add0000_cy<12> (Madd_brojacV_add0000_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_brojacV_add0000_cy<13> (Madd_brojacV_add0000_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_brojacV_add0000_cy<14> (Madd_brojacV_add0000_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_brojacV_add0000_cy<15> (Madd_brojacV_add0000_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_brojacV_add0000_cy<16> (Madd_brojacV_add0000_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_brojacV_add0000_cy<17> (Madd_brojacV_add0000_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_brojacV_add0000_cy<18> (Madd_brojacV_add0000_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_brojacV_add0000_cy<19> (Madd_brojacV_add0000_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_brojacV_add0000_cy<20> (Madd_brojacV_add0000_cy<20>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_brojacV_add0000_cy<21> (Madd_brojacV_add0000_cy<21>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_brojacV_add0000_cy<22> (Madd_brojacV_add0000_cy<22>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_brojacV_add0000_cy<23> (Madd_brojacV_add0000_cy<23>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_brojacV_add0000_cy<24> (Madd_brojacV_add0000_cy<24>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_brojacV_add0000_cy<25> (Madd_brojacV_add0000_cy<25>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_brojacV_add0000_cy<26> (Madd_brojacV_add0000_cy<26>)
+     MUXCY:CI->O           0   0.051   0.000  Madd_brojacV_add0000_cy<27> (Madd_brojacV_add0000_cy<27>)
+     XORCY:CI->O           1   0.699   0.000  Madd_brojacV_add0000_xor<28> (brojacV_add0000<28>)
+     FD:D                      0.268          brojacV_28
+    ----------------------------------------
+    Total                      6.577ns (5.140ns logic, 1.437ns route)
+                                       (78.2% logic, 21.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clkD1'
+  Clock period: 10.398ns (frequency: 96.174MHz)
+  Total number of paths / destination ports: 3093 / 53
+-------------------------------------------------------------------------
+Delay:               10.398ns (Levels of Logic = 10)
+  Source:            rezulA_0 (FF)
+  Destination:       rezulA_7 (FF)
+  Source Clock:      clkD1 rising
+  Destination Clock: clkD1 rising
+
+  Data Path: rezulA_0 to rezulA_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             14   0.514   0.853  rezulA_0 (rezulA_0)
+     LUT4_L:I3->LO         1   0.612   0.103  _old_rezulA_11<2>1_SW0 (N187)
+     LUT4:I3->O            9   0.612   0.849  _old_rezulA_11<2>1 (Madd_old_rezulA_18_add0000_lut<2>)
+     LUT4:I0->O            1   0.612   0.360  Maddsub_rezulA_addsub0000_cy<3>11_SW0_SW0 (N191)
+     LUT4_L:I3->LO         1   0.612   0.103  Maddsub_rezulA_addsub0000_cy<3>11_SW0 (N159)
+     LUT4:I3->O            2   0.612   0.383  Maddsub_rezulA_addsub0000_cy<3>11 (Maddsub_rezulA_addsub0000_cy<3>)
+     LUT4:I3->O            2   0.612   0.380  Maddsub_rezulA_addsub0000_cy<4>11 (Maddsub_rezulA_addsub0000_cy<4>)
+     MUXF5:S->O            2   0.641   0.383  Maddsub_rezulA_addsub0000_cy<5>11 (Maddsub_rezulA_addsub0000_cy<5>)
+     LUT4:I3->O            1   0.612   0.000  rezulA_mux0000<7>77_G (N194)
+     MUXF5:I1->O           1   0.278   0.387  rezulA_mux0000<7>77 (rezulA_mux0000<7>77)
+     LUT3:I2->O            1   0.612   0.000  rezulA_mux0000<7>109 (rezulA_mux0000<7>)
+     FDE:D                     0.268          rezulA_7
+    ----------------------------------------
+    Total                     10.398ns (6.597ns logic, 3.801ns route)
+                                       (63.4% logic, 36.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clkV'
+  Clock period: 4.578ns (frequency: 218.438MHz)
+  Total number of paths / destination ports: 200 / 24
+-------------------------------------------------------------------------
+Delay:               4.578ns (Levels of Logic = 10)
+  Source:            vremeB_0 (FF)
+  Destination:       vremeB_7 (FF)
+  Source Clock:      clkV rising
+  Destination Clock: clkV rising
+
+  Data Path: vremeB_0 to vremeB_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              4   0.514   0.651  vremeB_0 (vremeB_0)
+     LUT1:I0->O            1   0.612   0.000  Mcount_vremeB_cy<0>_rt (Mcount_vremeB_cy<0>_rt)
+     MUXCY:S->O            1   0.404   0.000  Mcount_vremeB_cy<0> (Mcount_vremeB_cy<0>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_vremeB_cy<1> (Mcount_vremeB_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_vremeB_cy<2> (Mcount_vremeB_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_vremeB_cy<3> (Mcount_vremeB_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_vremeB_cy<4> (Mcount_vremeB_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_vremeB_cy<5> (Mcount_vremeB_cy<5>)
+     MUXCY:CI->O           0   0.052   0.000  Mcount_vremeB_cy<6> (Mcount_vremeB_cy<6>)
+     XORCY:CI->O           1   0.699   0.509  Mcount_vremeB_xor<7> (Result<7>)
+     LUT3:I0->O            1   0.612   0.000  Mcount_vremeB_eqn_71 (Mcount_vremeB_eqn_7)
+     FDE:D                     0.268          vremeB_7
+    ----------------------------------------
+    Total                      4.578ns (3.418ns logic, 1.160ns route)
+                                       (74.7% logic, 25.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clkD1'
+  Total number of paths / destination ports: 1740 / 49
+-------------------------------------------------------------------------
+Offset:              11.364ns (Levels of Logic = 11)
+  Source:            p0 (PAD)
+  Destination:       rezulA_7 (FF)
+  Destination Clock: clkD1 rising
+
+  Data Path: p0 to rezulA_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            42   1.106   1.228  p0_IBUF (p0_IBUF)
+     LUT4_L:I0->LO         1   0.612   0.103  _old_rezulA_11<2>1_SW0 (N187)
+     LUT4:I3->O            9   0.612   0.849  _old_rezulA_11<2>1 (Madd_old_rezulA_18_add0000_lut<2>)
+     LUT4:I0->O            1   0.612   0.360  Maddsub_rezulA_addsub0000_cy<3>11_SW0_SW0 (N191)
+     LUT4_L:I3->LO         1   0.612   0.103  Maddsub_rezulA_addsub0000_cy<3>11_SW0 (N159)
+     LUT4:I3->O            2   0.612   0.383  Maddsub_rezulA_addsub0000_cy<3>11 (Maddsub_rezulA_addsub0000_cy<3>)
+     LUT4:I3->O            2   0.612   0.380  Maddsub_rezulA_addsub0000_cy<4>11 (Maddsub_rezulA_addsub0000_cy<4>)
+     MUXF5:S->O            2   0.641   0.383  Maddsub_rezulA_addsub0000_cy<5>11 (Maddsub_rezulA_addsub0000_cy<5>)
+     LUT4:I3->O            1   0.612   0.000  rezulA_mux0000<7>77_G (N194)
+     MUXF5:I1->O           1   0.278   0.387  rezulA_mux0000<7>77 (rezulA_mux0000<7>77)
+     LUT3:I2->O            1   0.612   0.000  rezulA_mux0000<7>109 (rezulA_mux0000<7>)
+     FDE:D                     0.268          rezulA_7
+    ----------------------------------------
+    Total                     11.364ns (7.189ns logic, 4.175ns route)
+                                       (63.3% logic, 36.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Offset:              4.040ns (Levels of Logic = 1)
+  Source:            s_seg_0 (FF)
+  Destination:       a (PAD)
+  Source Clock:      clk rising
+
+  Data Path: s_seg_0 to a
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.514   0.357  s_seg_0 (s_seg_0)
+     OBUF:I->O                 3.169          a_OBUF (a)
+    ----------------------------------------
+    Total                      4.040ns (3.683ns logic, 0.357ns route)
+                                       (91.2% logic, 8.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clkD1'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              4.562ns (Levels of Logic = 1)
+  Source:            cifra_2 (FF)
+  Destination:       an<2> (PAD)
+  Source Clock:      clkD1 rising
+
+  Data Path: cifra_2 to an<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              16   0.514   0.879  cifra_2 (cifra_2)
+     OBUF:I->O                 3.169          an_2_OBUF (an<2>)
+    ----------------------------------------
+    Total                      4.562ns (3.683ns logic, 0.879ns route)
+                                       (80.7% logic, 19.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 12.95 secs
+ 
+--> 
+
+Total memory usage is 310580 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

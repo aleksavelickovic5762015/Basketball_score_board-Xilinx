@@ -1,0 +1,390 @@
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-ft256-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-ft256-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "D:/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "D:/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+xst -intstyle ise -ifn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+xst -intstyle ise -ifn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.xst" -ofn "C:/Aleksa/DOMACI_ORT/kosarka2/kosarka.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kosarka_kod.ucf -p xc3s500e-fg320-5 kosarka.ngc kosarka.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o kosarka_map.ncd kosarka.ngd kosarka.pcf 
+par -w -intstyle ise -ol high -t 1 kosarka_map.ncd kosarka.ncd kosarka.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml kosarka.twx kosarka.ncd -o kosarka.twr kosarka.pcf -ucf kosarka_kod.ucf 
+bitgen -intstyle ise -f kosarka.ut kosarka.ncd 
